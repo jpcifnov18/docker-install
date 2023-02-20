@@ -15,7 +15,5 @@ sudo groupadd docker
 USER=$(whoami)
 sudo usermod -aG docker $USER
 newgrp docker
+echo USER
 #Version de docker
-docker --version
-#inicia daemon docker
-sudo dockerd
