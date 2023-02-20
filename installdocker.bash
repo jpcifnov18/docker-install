@@ -12,7 +12,7 @@ apt-cache policy docker-ce
 sudo apt install docker-ce -y
 #Pasos despues de instalar docker
 sudo groupadd docker
-$USER= whoami
+USER=$(whoami)
 sudo usermod -aG docker $USER
 newgrp docker
 #Version de docker
