@@ -15,5 +15,5 @@ sudo apt install docker-ce -y
 USER=$(whoami)
 sudo usermod -aG docker $USER
 newgrp docker
-echo USER
+echo $USER
 #Version de docker
