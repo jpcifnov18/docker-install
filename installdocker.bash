@@ -16,11 +16,3 @@ apt-cache policy docker-ce
 echo Instalando Docker
 #Instalar docker
 sudo apt install docker-ce -y
-#Pasos despues de instalar docker
-#sudo groupadd docker
-echo Agregando usuario
-USER=$(whoami)
-sudo usermod -aG docker $USER
-newgrp docker
-echo $USER
-#Version de docker
