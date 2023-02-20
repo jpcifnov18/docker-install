@@ -5,4 +5,4 @@ bash installdocker.bash
 # Instalando AWS , npm , Ts, 
 bash installdevtools.bash
 # Ejecutar docker
-bash installdevtools.bash
+bash rundocker.bash
